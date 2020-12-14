@@ -1,0 +1,29 @@
+{
+    "name": "rest-full/orm",
+    "description": "Assemble and run the predefined queries.",
+    "type": "library",
+    "version": "1.0",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Restfull\\": "src",
+            "App\\": "example/Model"
+        }
+    },
+    "require": {
+        "ext-pdo": "*",
+        "php": ">=7.3",
+        "rest-full/event": "1.*",
+        "rest-full/filesystem": "1.*",
+        "rest-full/core": "1.*",
+        "rest-full/error": "1.*",
+        "monolog/monolog": "1.*"
+    }
+}
